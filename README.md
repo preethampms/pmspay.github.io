@@ -1,10 +1,5 @@
 # [upayi.me](https://upayi.me/)
 ---
-### Show some :heart: and :star: the repo to support the project
-
-[![GitHub stars](https://img.shields.io/github/stars/cyberboysumanjay/upayi.svg?style=social&label=Star)](https://github.com/cyberboysumanjay/upayi) ![GitHub followers](https://img.shields.io/github/followers/cyberboysumanjay.svg?style=social&label=Follow)
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-orange)](https://telegram.dog/sjprojects) [![made-with-flask](https://img.shields.io/badge/Made%20with-Flask-1f425f.svg)](https://flask.palletsprojects.com/) ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/cyberboysumanjay/upayi)
 
 ---
 <div align="center">
