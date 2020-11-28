@@ -5,12 +5,11 @@
     <!-- Coded by Sumanjay @cyberboysumanjay on 5th August 2020 -->
 
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Meta Tags -->
     <meta name="author" content="Sumanjay">
     <meta name="description" content="Create Payment Link of your UPI ID!">
-
     <link rel="icon" href="https://telegra.ph/file/2f094c81af60c83f28f84.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
@@ -29,32 +28,31 @@
 
         gtag('config', 'UA-174919510-1');
     </script>
-
 </head>
 
 <body>
 
     <div class="card">
-        <div class="banner2">
-            <img height=180px; src="https://telegra.ph/file/2f094c81af60c83f28f84.png">
+        <div class="banner">
+            <img height=360px; src="https://telegra.ph/file/f34fd9546cc17841aee34.png">
         </div>
-        <h2 class="create-name">Create shareable UPI Payment links!</h2>
+        
+        <h2 class="name animate__animated animate__tada">Paying 20.0₹ to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7c0c0e191908141d110c110f0f09171d12051d3c1317151f151f15">[email&#160;protected]</a></h2>
+        
+        <div class="title">Secure and instant payments powered by
+            <br><br>
+            <img height="36px" src="https://telegra.ph/file/03c4581ebd2a0e21972de.png">
+            <img height="36px" src="https://telegra.ph/file/e290ab4d1dbf1ae1dab10.png">
 
-        <p class="create">Just add your UPI ID here<br><b>https://upayi.me/<your-upi-id>/<amount></b><br><br>Or,<br><b>Use our UPI Link Generator Tool</b></p>
+        </div>
+
         <div class="actions">
             <div class="pay-btn">
-                <input type="text" placeholder="Enter your UPI ID" id="upiid">
-                <input type='number' step='1.0' placeholder="Enter Amount (Optional)" id="amountid">
-                <input type="text" placeholder="Get your UPI Link" id="upilink" hidden disabled>
-                <button onclick=getLink()>
-                    <span class="tooltiptext" id="myTooltip">Create and Copy Link</span>
-                </button>
+                
+                <a href="upi://pay?pn=UPAYI&pa=preethampmssukanya@okicici&cu=INR&am=20.0"> <button>Pay Now</button></a>
+                
                 <br><br>
-                <a href="https://upayi.me/sumanjay@ybl">
-                    <button>    
-                        <span>Donate</span>
-                    </button>
-                </a>
+                <a href="/"> <button>Create your UPI Link</button></a>
                 <br>
             </div>
         </div>
@@ -63,35 +61,6 @@
 
     </div>
 
-    <script>
-        var upiid = document.getElementById("upiid");
-        var amountid = document.getElementById("amountid");
-        var upilink = document.getElementById("upilink");
-        var tooltip = document.getElementById("myTooltip");
-
-        function getLink() {
-            if (upiid.value.indexOf("@") != -1) {
-                var amount = "";
-                console.log(amountid.value);
-                console.log(amountid.value.length);
-                console.log(typeof(amountid.value))
-                if (isNumeric(amountid.value)) {
-                    amount = "/" + amountid.value;
-                }
-                upilink.value = "https://upayi.me/" + upiid.value + amount;
-                upilink.style.display = "block";
-                navigator.clipboard.writeText(upilink.value);
-                var copyText = document.getElementById("upilink");
-                tooltip.innerHTML = "Copied to Clipboard!";
-            } else {
-                tooltip.innerHTML = "Invalid UPI ID Entered";
-            }
-        }
-
-        function isNumeric(n) {
-            return !isNaN(parseFloat(n)) && isFinite(n);
-        }
-    </script>
-</body>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 
 </html>
