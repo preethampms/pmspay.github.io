@@ -46,14 +46,7 @@
                 
                 <a href="upi://pay?pn=UPAYI&pa=preethampmssukanya@okicici&cu=INR&am=20.0"> <button>Pay Now</button></a>
                 
-                <br><br>
-                <a href="/"> <button>Create your UPI Link</button></a>
-                <br>
-            </div>
-        </div>
-
-        <div class="desc link"> <a href="https://github.com/cyberboysumanjay">Made with <span class="love">❤️</span> by Sumanjay</a></div>
-
+                
     </div>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
