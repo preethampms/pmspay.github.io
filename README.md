@@ -34,7 +34,7 @@
     <div class="card">
         <div class="banner">
 
-            <img height=360px" src="https://telegra.ph/file/f34fd9546cc17841aee34.png">
+            <img height=360px src="https://telegra.ph/file/f34fd9546cc17841aee34.png">
 
         </div>
         
